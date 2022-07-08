@@ -1,0 +1,23 @@
+body.dark{
+    --background-color: #00082F;
+    --text-color: #FEFEFE;
+    --primary-color:#4263EB;
+    --primary-color-dark:#364fc7;
+    --secondary-color:#FAFAFA;
+}
+
+body.pink{
+    --background-color:#FFF0F6;
+    --text-color: #1F000B;
+    --primary-color:#D6336C;
+    --primary-color-dark:#A61E4D;
+    --secondary-color:#FFFFFF;
+}
+
+body.pink-dark{
+    --background-color:#1F000B;
+    --text-color: #FFF0F6;
+    --primary-color:#D6336C;
+    --primary-color-dark:#A61E4D;
+    --secondary-color:#FFFFFF;
+}
