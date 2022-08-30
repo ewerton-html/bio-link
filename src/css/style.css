@@ -6,7 +6,7 @@
 body {
   font-family: "Roboto", Sans-Serif;
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-image: var(--background-color);
 }
 
 a {
@@ -60,14 +60,26 @@ ul li a {
   font-size: 14px;
   font-weight: 400;
 
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 16px;
   border-radius: 6px;
 
   transition: background 400ms;
+  
 }
 
 ul li a:hover {
   background-color: var(--primary-color-dark);
+}
+
+ul li a:active {
+  transform: scale(0.95);
+  transition: transform 200ms ease-in-out;
+}
+
+.icon{
+  font-size: 16px;
+  margin-right: 8px;
 }
 
 footer {
