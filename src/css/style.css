@@ -64,7 +64,7 @@ ul li a {
   margin-bottom: 16px;
   border-radius: 6px;
 
-  transition: background 400ms;
+  transition: ease-in-out 400ms;
   
 }
 
@@ -73,7 +73,7 @@ ul li a:hover {
 }
 
 ul li a:active {
-  transform: scale(0.95);
+  transform: scale(0.99);
   transition: transform 200ms ease-in-out;
 }
 
