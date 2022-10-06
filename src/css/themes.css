@@ -22,10 +22,10 @@ body.pink-dark{
     --secondary-color:#FFFFFF;
 }
 
-.blue {
+.purple {
     --background-color: linear-gradient(
         to bottom,rgb(30, 0, 60),
-        rgb(58, 0, 92));
+        rgb(58, 0, 92), rgb(30, 0, 60));
     --text-color: #FFF0F6;
     --primary-color:#8300CF;
     --primary-color-dark:#5B0090;
