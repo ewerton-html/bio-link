@@ -55,7 +55,7 @@ a {
   transform: translate( -50% -50%);
   height: 120px;
   width: 80px;
-  background: linear-gradient(to bottom, var(--primary-color-dark), var(--primary-color));
+  background: linear-gradient(to left, rgba(0,0,0,.0), var(--primary-color), rgba(0,0,0,.0));
   animation: spinning 2s linear infinite;
   z-index: 10;
 }
@@ -104,7 +104,9 @@ ul {
 ul li a {
   display: flex;
   flex-direction: row;
-  height: 44px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
   width: 160px;
   color: var(--secondary-color);
   font-size: 14px;
